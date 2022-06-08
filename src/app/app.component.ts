@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'simple-from';
+
+  getValue(value:any) {
+    console.log(value);
+  }
 }
